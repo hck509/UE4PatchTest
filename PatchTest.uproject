@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0AC3BC14-4BEE-EB23-3D87-68801EB5EF32}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PatchTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

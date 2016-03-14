@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildReceipt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Properties>
+    <Property Name="TargetName" Value="PatchTest" />
+    <Property Name="Platform" Value="Android" />
+    <Property Name="Configuration" Value="Development" />
+    <Property Name="Precompile" Value="False" />
+  </Properties>
+  <BuildProducts>
+    <BuildProduct Path="$(ProjectDir)\Binaries\Android\PatchTest-armv7-es2.so" Type="Executable" />
+    <BuildProduct Path="$(ProjectDir)\Binaries\Android\PatchTest-armv7-es2.apk" Type="Executable" />
+    <BuildProduct Path="$(EngineDir)\Plugins\2D\Paper2D\Binaries\Android\PatchTest-Paper2D-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Blendables\LightPropagationVolume\Binaries\Android\PatchTest-LightPropagationVolumeRuntime-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Experimental\CharacterAI\Binaries\Android\PatchTest-CharacterAI-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Media\AndroidMedia\Binaries\Android\PatchTest-AndroidMedia-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Messaging\UdpMessaging\Binaries\Android\PatchTest-UdpMessaging-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Android\PatchTest-AndroidDeviceProfileSelector-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\AndroidMoviePlayer\Binaries\Android\PatchTest-AndroidMoviePlayer-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\ArchVisCharacter\Binaries\Android\PatchTest-ArchVisCharacter-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\CableComponent\Binaries\Android\PatchTest-CableComponent-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\CustomMeshComponent\Binaries\Android\PatchTest-CustomMeshComponent-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Android\PatchTest-ExampleDeviceProfileSelector-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\GearVR\Binaries\Android\PatchTest-GearVR-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\OculusLibrary\Binaries\Android\PatchTest-OculusLibrary-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Runtime\ProceduralMeshComponent\Binaries\Android\PatchTest-ProceduralMeshComponent-armv7-es2.a" Type="StaticLibrary" />
+    <BuildProduct Path="$(EngineDir)\Plugins\Slate\SlateRemote\Binaries\Android\PatchTest-SlateRemote-armv7-es2.a" Type="StaticLibrary" />
+  </BuildProducts>
+  <RuntimeDependencies />
+  <AdditionalProperties>
+    <AdditionalProperty Name="AndroidPlugin" Value="Plugins\Runtime\GearVR\Source\GearVR\GearVR_APL.xml" />
+  </AdditionalProperties>
+  <bRequireDependenciesToExist>true</bRequireDependenciesToExist>
+</BuildReceipt>
